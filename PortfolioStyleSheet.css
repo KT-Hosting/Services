@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css?family=Sofia");
+@import url("https://fonts.googleapis.com/css?family=Caveat");
+@import url("https://fonts.googleapis.com/css?family=Arvo");
+header, footer{
+	background-color: #0000a4;
+	color: white;
+	text-align: center;
+	font-size: 1.5rem;
+}
+header a, header i{
+	padding: 0rem 3rem 1.5rem 3rem;
+	vertical-align: text-top;
+}
+a {
+	color: white;
+}
+header a:hover, header i:hover{
+	background-color: #00005c;
+	color: white;
+}
+footer {
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.1rem;
+}
+img {
+	width: 50%;
+	vertical-align: sub;
+	padding: 0rem 3rem 0rem 3rem;
+	margin: 5% 20% 2% 25%;
+	}
+.card {
+	width: 60%;
+	background-color: white;
+	text-align:center;
+	margin: 5% 18% 5% 18%;
+	border-style: solid;
+	border-color: #78aaff; 
+	border-width: 20px;
+}
+article {
+	width: 100%;
+	background-color: white;
+	text-align: justify;
+	margin: 0% 10% 5% 10%;
+	padding: 0rem;
+	border: 10% solid white;
+}
+h1{
+	text-align: center;
+	text-decoration-line: underline;
+	text-decoration-color: #033d56;
+	font-family: "Sofia", sans-serif;
+}
+h2, h3{
+	text-align: center;
+	font-family: "Caveat", sans-serif;
+	
+}
+body {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	background-color: #c6f3f3;
+	font-family: "Arvo", sans-serif;
+	text-align: justify;
+}
+.contact-button{
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin:4px 45%;
+	cursor: pointer;
+	background-color: #00005c;
+	border-radius: 8px;
+	
+}
+td{
+	font-size: 1.6rem;
+}
+
+
+.table3_left{
+	width: 20%;
+}
+.table3_right{
+	width: 20%;
+}
+.table3_middle{
+	width: 60%;
+	font-size: 3rem;
+}
+.table3_middleh{
+	width: 60%;
+	text-align: center;
+}
+.table2_left{
+	width: 50%;
+	font-size:1 rem;
+}
+.table2_right{
+	width: 50%;
+	font-size:1 rem;
+}
